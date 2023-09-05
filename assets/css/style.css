@@ -316,8 +316,13 @@ section {
 }
 
 .section-title {
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.486);
 }
+
 
 .section-title h2 {
   font-size: 32px;
@@ -844,7 +849,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  padding-bottom: 130px;
+  padding-bottom: 100px;
 }
 
 .contact .info {
